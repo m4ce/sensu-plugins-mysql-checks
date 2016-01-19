@@ -8,6 +8,7 @@
 require 'sensu-plugin/check/cli'
 require 'mysql2'
 require 'json'
+require 'socket'
 
 class CheckMySQL < Sensu::Plugin::Check::CLI
   option :host,
